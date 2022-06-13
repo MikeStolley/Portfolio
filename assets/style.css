@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    color: solid bisque;
+  }
+  
+  
+  /* Header/ Nav Section Start */
+  
+header {
+    padding: 20px 35px;
+    display: flex;
+    
+  }
+  
+  /* Header section ends */
+  
+
+
+
+
+  /* Styling for ALL Sections */
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  /* All section styling ends */
+
+
+
+
+
+
+
+  /* Hero Styling Start */
+
+
+
+  /* Hero styling End */
+  
+  
+
+
+
+
+
+  /* Section title style */
+
+
+
+  /* Section title end */
+  
+
+
+
+
+  /* About Me section styles */
+  
+  
+  
+  /* About Me section ends */
+  
+  
+
+
+
+  /* My Work section styles */
+ 
+  
+  /* my Work section ends */
+  
+
+
+
+  /* Contact Me section styles */
+
+  
+  /* Contact Me section ends */
+
+
+
+
+   
+  /* Footer Section */
+
+  
+
+  /* End Footer Section */
+
+
+  
+
+  
+  /* UTILITIES */
+  
+  
+  
+
+
+
+
+
+
