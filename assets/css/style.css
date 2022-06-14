@@ -1,26 +1,68 @@
   
+:root {
+  --primary-color: #024e12;
+  --secondary-color: darkblue;
+  --tertiary-color: #693401;
+}
+
+
 body {
     color: solid #024e12;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    line-height: 1.5;
   }
   
+  p {
+    margin: 0;
+  }
+
   
   /* Header/ Nav Section Start */
+
+  h1,h2,h3 {
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 25px;
+    color: var(--secondary-color);
+    outline: 0;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+  }
+
+  header h1 {
+
+  }
+  
+  header a:hover, header a:focus, header a:active {
+    color: var(--secondary-color);
+
+  }
+  
+  header nav {
+
+  }
+  
+  header nav ul {
+    margin: 0;
+    list-style: disc;
+
+  }
   
   
   /* Header section ends */
   
-
-
-
-
   /* Styling for ALL Sections */
-
-  section {
-    display: flex;
-    flex-wrap: wrap;
-
+  
+  p {
+    margin: 0;
   }
+ 
   
   /* All section styling ends */
 
@@ -63,6 +105,8 @@ body {
 
 
   /* My Work section styles */
+
+
  
   
   /* my Work section ends */
