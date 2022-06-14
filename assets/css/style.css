@@ -1,57 +1,57 @@
   
 :root {
-  --primary-color: #024e12;
-  --secondary-color: blue;
-  --tertiary-color: black;
+  --primary-color: black;
+  --secondary-color: lightblue;
+  --tertiary-color: slategrey;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-body {
-    color: solid #024e12;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
-    line-height: 1.5;
-  }
-  
-  p {
-    margin: 0;
-  }
-
-  
   /* Header/ Nav Section Start */
 
-  h1,h2,h3 {
-    margin: 0;
-  }
 
   header {
+    padding: 20px 40px;
+    background-color: var(--tertiary-color);
     display: flex;
-    flex-wrap: wrap;
-    padding: 25px 25px;
-    color: var(--secondary-color);
-    outline: 0;
-    top: 0;
-    position: sticky;
     justify-content: space-between;
-  }
-
-  header h1 {
-   
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
   }
   
-  header a:hover, header a:focus, header a:active {
-    color: var(--secondary-color);
-
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+  }
+  
+  header a {
+    color: var(--primary-color);
   }
   
   header nav {
-
+    margin: 7px;
   }
   
   header nav ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px;
-
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 150x;
+    padding: 10px 15px;
   }
   
   
@@ -59,9 +59,7 @@ body {
   
   /* Styling for ALL Sections */
   
-  p {
-    margin: 0;
-  }
+
  
   
   /* All section styling ends */
@@ -73,19 +71,20 @@ body {
 
 
   /* Hero Styling Start */
-  .hero {
-    padding: 40px;
-    height: 600px;
 
+  .hero {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 250px;
   }
 
   .hero-text {
-    color: var(--tertiary-color);
     background-color: var(--secondary-color);
-    width: 700px;
-    border: solid 30px var(--secondary-color);
   }
-
   
 
   /* Hero styling End */
@@ -118,8 +117,10 @@ body {
 
   /* My Work section styles */
 
+  
 
- 
+
+
   
   /* my Work section ends */
   
