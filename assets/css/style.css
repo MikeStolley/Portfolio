@@ -45,8 +45,10 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    position: absolute;
+    right: 100px;
+    padding: 10px 15px;
   }
-  
   header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
@@ -79,11 +81,15 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 250px;
+    height: 175px;
   }
 
   .hero-text {
     background-color: var(--secondary-color);
+    position: absolute;
+    right: 30px;
+    top: 225px;
+
   }
   
 
@@ -116,8 +122,13 @@
 
 
   /* My Work section styles */
-
-  
+  .work-img {
+    margin: 0 1.5% 24px 1.5%;
+  }
+  img {
+    display: inline-block;
+    width: 15%;
+  }
 
 
 
