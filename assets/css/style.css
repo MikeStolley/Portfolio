@@ -29,6 +29,8 @@
     margin: 0;
     font-size: 36px;
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+    width: 300px;
   }
   
   header a {
@@ -81,7 +83,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 175px;
+    height: 225px;
   }
 
   .hero-text {
@@ -105,20 +107,36 @@
   .section-title {
     font-weight: bold;
     font-size: 35px;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
+    border-radius: 1px;
     width: 170px;
+    border-bottom: 5px solid black;
+   
   }
 
 
 
   /* Section title end */
   
-
+  section {
+    padding: 35px;
+  }
 
 
 
   /* About Me section styles */
+
+  #about-me {
+    height: 350px;
+    padding: 0 50px;
+    background-color: var(--tertiary-color);
+  }
+
+  .hero-text p {
+    text-align: center;
+    margin: 0;
+  }
+
+ 
   
   
   
@@ -133,17 +151,7 @@
     background-color: var(--tertiary-color)
   }
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
 
-  .img-title {
-    text-align: center;
-    border: 3px var(--secondary-color);
-  }
 
 
 
