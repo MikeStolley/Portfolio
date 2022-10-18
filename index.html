@@ -1,97 +1,288 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio of Michael Stolley</title>
-        <link rel="stylesheet" href="../Portfolio/assets/css/style.css">
-        <!--Style content for title-->
-        <style>
+<head>
+    <title>Bootstrap Portfolio/Resume Theme for Developers</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
 
-        </style>
-    </head>
-    <body>
-        <!--Navigation section for page(about me, contact me, work)-->
-        <header>
-            <nav class="nav-bar">
-            <h1>
-                <p>
-                    Michael Stolley
-                </p>
-            </h1>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-work">My Work</a></li>
-                    <li><a href="#contact-me">Contact me</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!--Hero Section-->
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Welcome to my website!</h1>
-                    <p>
-                        Below, you'll find examples of my work and how to contact me, as well as a bit about myself.
-                    </p>
-            </div>
-        </section>
-        <!--End of Hero section-->
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="./assets/css/style.css">
+    
+</head> 
 
-        <!--About me section-->
-        <section id="about-me" class="me">
-            <div>
-                <h2 class="section-title">
-                    About<br>Me</br>
-                </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, reprehenderit laudantium dignissimos nulla esse nobis vel aspernatur dicta, quos doloremque ut laboriosam, id ipsa deleniti cupiditate non. Quibusdam, voluptas eaque.
-                </p>
-            </div>
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">William Michael Stolley</h1>
+		                <h2 class="desc">Developer</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+		                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt"></i></a></li>    
+		                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   
+		                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.</p>
+                         
+                        </div><!--//content-->
+                    </div>                 
+                </section>
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">Launch - The perfect Bootstrap template for SaaS products</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>Some of my projects</p>
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="./assets/images/run-buddy-ss.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="" target="_blank">Run Buddy</a></h3>
+                                    <p class="mb-2">landing page designed for a company seeking to have people engage in physical activity.</p>
+                                    <p><a class="more-link" href="https://github.com/MikeStolley/run-buddy" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="" target="_blank">PROJECT 2</a></h3>
+                                    <p class="mb-2">Enter project description here</p>
+                                    <p><a class="more-link" href="" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             <div class="item row">
+                                <a class="col-md-4 col-12" href="" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="" target="_blank">PROJECT 3</a></h3>
+                                    <p class="mb-2">Enter project description here</p>
+                                    <p><a class="more-link" href="" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="" target="_blank">PROJECT 4</a></h3>
+                                    <p class="mb-2">Enter project description here</p>
+                                    <p><a class="more-link" href="" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="" target="_blank">PROJECT 5</a></h3>
+                                    <p class="mb-2"> Enter project description here</p>
+                                    <p><a class="more-link" href="" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div>                
+                </section>
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Quality Control <span class="place"><a href="#"> Procter and Gamble </a></span> <span class="year">(2020 - Present)</span></h3>
+                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                            </div><!--//item-->
+                            
+                            
+                        </div><!--//content-->  
+                    </div>                 
+                </section>
+                <section class="github section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">My GitHub</h2>
+                        <p> <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
+                        
+                        <div id="github-graph" class="github-graph">
 
-        </section>
-        <!--End of about me-->
+                        </div><!--//github-graph-->
 
-        <!--My Work section-->
-        <section id="my-work">
-            <div class="work">
-                <h2 class="section-title">
-                    My <br>Work</br>
-                </h2> 
-            </div>
-            <div class="img-title">
-                <h3>Event Finder</h3>
-            </div>
-            <div class="work-img">
-                <a href="https://jessicam04.github.io/wheres-the-band/">
-                <img src="./assets/images/2022-07-21.png" alt="run-buddy landing page image"
-                width="1000" height="500"  /> 
-                </a>
-            </div>
-            <div class="img-title">
-                <h3>Loney Gamer Hours</h3>
-            </div>
-            <div class="work-img">
-                <a href="https://lonely-gamer-hours.herokuapp.com/">
-                <img src="./assets/images/Screenshot 2022-09-19 002653.png" alt="image of a calculator" /></a>
-            </div>
-            <div class="img-title">
-                <h3>Soon to come!</h3>
-            </div>
-            <div class="work-img">
-                <a href="#"><img src="../Portfolio/assets/images/sailing-700x300.png" alt="to be determined photo" /></a>
-            </div>    
-        </section>
-        <!--End of my work-->
+                        <p> <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.                      
+                        <div id="ghfeed" class="ghfeed">
+                        </div>
+                        
+                    </div><!--//secton-inner-->
+                </section>
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Greensboro, NC.</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">stolleywilliam@yahoo.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">GitHub:</span><a href="#">https://github.com/MikeStolley</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div>                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Skills I've focused on</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">MySQL &amp; NoSQL<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></span></h3>
 
-        <!--Contact me section-->
-        <section id="contact-me" class="contact">
-            <div>
-                <h2 class="section-title">
-                    Contact<br>Me</br>
-                </h2>
-            </div>
-            
-        
-        </section>
-        <!--End of contact me section-->
-
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Node &amp; Python<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS, &amp; Javascript<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Express, Bootstrap &amp; React<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div>                 
+                </aside>
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Developer Certifcation Bootcamp</h3>
+                                <h4 class="university">University of North Carolina - Chapel Hill <span class="year">(2021-2022)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Associates in CS</h3>
+                                <h4 class="university">Guilford Technical College <span class="year">(2021-Present)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA in Music</h3>
+                                <h4 class="university">University of North Carolina - Greensboro <span class="year">(2013-2016)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div>
+                </aside>
+              
+            </div> 
+        </div>
+    </div>
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Designed by William Michael Stolley</small>
+        </div>
+    </footer>
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
