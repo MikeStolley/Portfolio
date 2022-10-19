@@ -74,22 +74,15 @@ body[data-theme="dark"] {
   .experience .item .title {
 	  color: $dm-text-color;
   }
-  .testimonials .item .quote {
-	  color: $dm-text-color;
-  }
+
   .latest .item .title a, .projects .item .title a , .blog .item .title a{
 	  color: $dm-text-color;
 	  &:hover {
 		  color: #fff;
 	  }
   }
-  .testimonials .item .source .name {
-	  color: $dm-text-color;
-  }
+
   .education .item .title {
-	  color: $dm-text-color;
-  }
-  .languages .item .title {
 	  color: $dm-text-color;
   }
   
